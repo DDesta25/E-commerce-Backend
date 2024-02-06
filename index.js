@@ -6,6 +6,7 @@ const Tag = require('./Tag');
 const ProductTag = require('./productTag');
 
 
+
 //  products belongs to category 
 
 Product.belongsTo (Category, {
