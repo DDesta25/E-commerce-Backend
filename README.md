@@ -22,7 +22,21 @@ npm i all dependencies dotenv, express, mysql2, sequelize
 
 ## Screen Recording
 https://drive.google.com/file/d/1HjS7Yp4Pc5Kn5x-iC_7rY8_T32T5M285/view
-  
+
+updated screen recording of the working link in Insomnia
+https://drive.google.com/file/d/17j-UX26HQF8ezSYKxCbLq00DALFhkf3I/view
+
+## Screenshots
+![Alt text](image.png)
+
+
+![Alt text](image-1.png)
+
+
+![Alt text](image-2.png)
+
+
+![Alt text](image-3.png)
   ## Usage
   
   
