@@ -55,9 +55,9 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete a category by its `id` value
-  Category.delete(req.body)
-  .then(categoryData=>{
-    res.status(200).json(categoryData)
+  Category.destroy ({where: { id: req.params.id}})
+  .then(deleteOne =>{
+    res.status(200).json(deleteOne)
   }).catch((err)=>{
     res.status(500).json(err)
   })
